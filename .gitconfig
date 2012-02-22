@@ -1,0 +1,28 @@
+# <mail@aaron-mueller.de>
+# Last change: 2012-02-13: Restructure it and add some aliases.
+
+[user]
+  name = Aaron Mueller
+  email = mail@aaron-mueller.de
+
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+
+[http]
+  sslVerify = false
+
+[merge]
+  tool = vimdiff
+
+[alias]
+  wdiff = diff --color-words
+  wshow = show --color-words
+  aa = add --all
+  s = status
+  undo = reset --hard HEAD@{1}
+  lo = "!~/bin/gitlog.sh"
+  l = !git lo -15 --all
+
