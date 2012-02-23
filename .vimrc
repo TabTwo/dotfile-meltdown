@@ -1,33 +1,9 @@
-"
-" Aaron Mueller <mail@aaron-mueller.de>
-" http://aaron-mueller.de/
-"
-" This is my personal .vimrc file. It is suited for my personal taste and
-" needs, but you can use it as a source for ideas and hints for your personal
-" .vimrc file. Please dont use it completely, some of the settings are
-" highly specified for my environment and my needs. Some settings twist vim
-" into some weired state which is good for me but not for everyone else.
-"
-" This file brings some dependencies with:
-"   * ctags
-"   * vundle
-"   * Some files for the language stuff
-"
-" Linux should set up properly with this
+" Die Escape-Taste auf die CAPSLOCK-Taste legen:
 " $ xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-"
-" Some useful hints:
-"   * Reload the config while edit :so %
-"
-" HISTORY:
-"   2012-02-08: Reorder the whole file and make it readable for other people.
-"   2012-01-17: Manage Plugins with Vundle
-"   2011-09-29: Add the LanguageTool
-"   2010-07-29: Change GUI font
-"   2010-06-05: Restructure my old .vimrc file a little bit
-"   2009-09-18: Clean up and grouping
-"   2007-06-17: Add the special highlighters
 
+
+" In Vim die gerade bearbeitete Configurationsdatei einlesen
+" :source %
 
 " General settings
 set nocompatible

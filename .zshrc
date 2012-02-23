@@ -1,6 +1,3 @@
-# zsh configuraton.
-# Last change: 2009-03-01 <aaron@aaron-mueller.de>
-
 HISTFILE=~/.history
 HISTSIZE=5000
 SAVEHIST=5000
