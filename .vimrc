@@ -76,6 +76,14 @@ set scrolloff=3
 set laststatus=2
 set backspace=2
 
+" Reselect visual block after indent/outdent
+vnoremap < <gv
+vnoremap > >gv
+
+" Movement on wrapped lines
+nnoremap j gj
+nnoremap k gk
+
 " Special filetypes need special settings
 autocmd FileType text setl textwidth=80 formatoptions+=tna nocindent nosmartindent
 autocmd BufEnter README* setl textwidth=80 formatoptions+=tna nocindent nosmartindent
